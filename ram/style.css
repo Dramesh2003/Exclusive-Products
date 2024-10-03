@@ -1,0 +1,108 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Header Styles */
+.top-banner {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.icons a {
+    margin-left: 15px;
+}
+
+/* Hero Banner Styles */
+.hero-banner {
+    background-image: url('hero-banner.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-banner h1 {
+    font-size: 48px;
+}
+
+/* Flash Sales Section */
+.flash-sales .timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Category Section */
+.categories .category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
